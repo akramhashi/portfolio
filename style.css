@@ -1,0 +1,786 @@
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: blueviolet;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    position: fixed;
+    margin-top: -160px;
+    width: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.048);
+
+}
+
+.logo{
+    display: flex;
+    margin-left: 10%;
+    font-size: 22px;
+    color: blueviolet;
+    margin-top: 1%;
+    width: 400px;
+}
+
+.about{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black; 
+    font-size: 23px;
+}
+
+.project{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 4%;
+    text-decoration: none;
+    color: black; 
+    font-size: 23px;
+
+}
+
+
+.exp{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 4%;
+    text-decoration: none;
+    color: black; 
+    font-size: 23px;
+
+}
+
+.contact{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 4%;
+    text-decoration: none;
+    color: black; 
+    font-size: 23px;
+
+}
+
+.about:hover{
+    text-decoration: underline;
+    transition: all 0.4s ;
+}
+
+
+.project:hover{
+    text-decoration: underline;
+    transition: all 0.4s ;
+}
+
+
+.exp:hover{
+    text-decoration: underline;
+    transition: all 0.4s ;
+}
+
+.contact:hover{
+    text-decoration: underline;
+    transition: all 0.4s ;
+}
+
+
+/* This is the banner section */
+
+.banner{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 13%;
+}
+
+.image{
+
+}
+
+.profile{
+    width: 200%;
+    margin-left: -100px;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.greating{
+    text-align: start;
+    
+}
+
+.name{
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 0px;
+    color: blueviolet;
+
+}
+
+.work{
+    font-weight: 600;
+    font-size: 28px;
+    color: rgb(107, 107, 107);
+    text-align: start;
+    margin-top: 0px;
+    
+}
+
+.btn1{
+    width:25%;
+    height: 45px;
+    border-radius: 20px;
+    margin-left: 1%;
+    background-color: white;
+    transition: 0.5s ease-in;
+
+}
+
+.btn1:hover{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    transition: 0.5s ease-out;
+
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-out;
+
+}
+
+.btn2{
+    width:25%;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    transition: 0.5s ease-in;
+
+}
+
+.linkedin{
+    width: 5%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.quora{
+    width: 5%;
+    margin-left: 1%;
+}
+
+
+/* This is the about section */
+
+.aboutsection{
+    display: flex;
+}
+
+.sec1{
+    width: 50%;
+
+}
+
+.aboutsection{
+    margin-top: 13%;
+    margin-left: 10%;
+
+}
+
+
+.greating2{
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 40px;
+}
+
+.aboutcontent{
+    width: 100%;
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+
+.box,
+.box2{
+    display: flex;
+    flex-direction: row;
+
+}
+.map{
+    width: 3%;
+    height: 2%;
+    margin-top: 25px;  
+    margin-right: 10px;  
+
+}
+
+.location{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.wifi-img{
+    width: 3%;
+    height: 2%;
+    margin-top: 30px;  
+    margin-right: 10px;  
+
+}
+
+.wifi1{
+    display: flex;
+    margin-top: 25px;
+}
+
+.box2{
+    margin-top: -25px;
+}
+
+.btn3{
+    width: 20%;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+.social2{
+    width: 90%;
+    margin-left: -74px;
+    margin-top: 0%;
+}
+
+.expert{
+    display: flex;
+    flex-direction: row;
+}
+
+.experience1,
+.experience2{
+    border-color: black;
+    border-style: solid;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 2%;
+    margin-top: 4%;
+    margin-left: 10px;
+    transition: 0.5s ease-in;
+
+ 
+}
+
+.experience1:hover,
+.experience2:hover{
+    width: 45%;
+    transition: 0.5s ease-out;
+}
+
+.badge{
+    width: 15%;
+    align-items: center;
+}
+
+.title1{
+    font-size: 20px;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.years{
+
+}
+
+.work3{
+    font-size: 15px;
+}
+
+.selfie{
+    width: 100%;
+}
+
+
+
+
+/* This is the project section */
+
+.projects1{
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    width: 20%;
+    padding: 1%;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10%;
+    
+
+}
+
+
+.projects2{
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    width: 20%;
+    padding: 1%;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.projects4{
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    width: 20%;
+    padding: 1%;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+
+.projects3{
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    width: 20%;
+    padding: 1%;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+
+
+}
+
+
+.projectss{
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-app{
+    width: 80%;
+    border-radius: 40px;
+    transition: 0.5s ease-in;
+
+}
+
+.mobile-app:hover{
+    width: 90%;
+    transition: 0.5s ease-out;
+
+}
+
+.p1{
+    font-weight: 700;
+    margin-top: 4%;
+}
+
+.btn4{
+    width: 30%;
+    background-color: white;
+    height: 40px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: 0.2s ease-in;
+
+}
+
+.btn4:hover,
+.btn5:hover{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+
+.btn5{
+    width: 40%;
+    background-color: white;
+    height: 40px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    transition: 0.2s ease-in;
+
+}
+
+.btn6{
+    margin-top: 0px;
+    margin-left: 10%;
+    width: 10%;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.p2{
+    margin-top: 200px;
+    margin-left: 12%;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+
+
+/* This is the contact section */
+
+
+.contact-me{
+    text-align: center;
+}
+.title2{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.cont{
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+
+}
+
+
+.bxs{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1%;
+    width: 40%;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+
+.bx1{
+    display: flex;
+}
+
+
+.bx2{
+    display: flex;
+    margin-left: 40px;
+}
+
+.email{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.info1{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.copyright{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    
+    .header{
+        margin-top: -55px;
+        display: flex;
+        width: 100%;
+    }
+
+    .logo{
+
+    }
+
+    .about{
+        display: none;
+    }
+
+    .exp{
+        display: none;
+    }
+
+
+    .project{
+        display: none;
+    }
+
+
+    .contact{
+        display: none;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutsection{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .profile{
+        width: 130%;
+        margin-top: 60px;
+        margin-left: -100px;
+    }
+
+    .btn1:hover{
+        background-color: blueviolet;
+    }
+
+
+    .btn2:hover{
+        color: blueviolet;
+
+    }
+
+    .btn1{
+        border-color: blueviolet;
+        color: blueviolet;
+
+    }
+    .btn2{
+        background-color: blueviolet;
+        border-color: blueviolet;
+        color: white;
+
+    }
+
+    .bxs{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 10%;
+        height: 100px;
+        text-align: center;
+    }
+
+    .bx1{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .title2{
+        margin-top: 100PX;
+
+    }
+
+    .cont{
+        margin-left: 0px;
+    }
+
+    .bx2{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+    .content{
+        margin-left: -70px;
+        text-align: center;
+    }
+
+
+    .greating{
+        margin-left: 100px;
+    }
+
+    .name{
+        font-size: 50px;
+        margin-left: -40px;
+    }
+
+    .work{
+        margin-left:10px;
+        width: 100%;
+    }
+
+    .btn1{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -50px;
+    }
+
+    .btn2{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -50px;
+
+    }
+
+    .linkedin{
+        width: 10%;
+        margin-left: -60px;
+    }
+
+    .quora{
+        width: 10%;
+    }
+
+
+    .btn3{
+        width: 200%;
+        margin-left: -20px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .aboutsection{
+        text-align: center;
+    }
+
+    .greating2{
+        font-size: 40px;
+        width:350px;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+
+
+    .aboutcontent{
+        width:350px;
+        margin-left: -20px;
+        margin-top: 10px;
+        }
+
+        .expert{
+            display: flex;
+            flex-direction: row;
+            width: 380px;
+            margin-left: -40px;
+        }
+
+        .experience1{
+            width: 100%;
+        }
+
+        .experience2{
+            width: 100%;
+        }
+
+        .selfie{
+            display: none;
+        }
+
+        .social2{
+            width: 200%;
+            margin-left: -110px;
+        }
+
+        .p2{
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        .btn6{
+            width: 90%;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+
+        .projectss{
+            display: flex;
+            flex-direction: column;
+            margin-left: 5%;
+        }
+
+        .projects1{
+            width: 90%;
+            padding: 10px;
+            margin-left: 0px;
+        }
+
+        .mobile-app{
+            width: 100%;
+        }
+
+        .projects2{
+            width: 90%;
+            padding: 10px;
+            margin-left: 0px;
+
+        }
+
+        .mobile-app{
+            width: 100%;
+        }
+
+        .projects3{
+            width: 90%;
+            padding: 10px;
+            margin-left: 0px;
+
+        }
+
+        .mobile-app{
+            width: 100%;
+        }
+
+        .projects4{
+            width: 90%;
+            padding: 10px;
+            margin-left: 0px;
+
+        }
+
+        .mobile-app{
+            width: 100%;
+        }
+
+        .copyright{
+            margin-left: 7%;
+        }
+}
